@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: orangered;
+            border: 2px solid yellowgreen;
+        }
+
+        #mydiv {
+            transform: rotateX(180deg);
+        }
+
+        h1 {
+            text-decoration: overline;
+            text-transform: capitalize;
+        }
+
+        h2 {
+            text-decoration: line-through;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            text-decoration: underline;
+            text-transform: lowercase;
+        }
+
+        h4 {
+            text-decoration: underline overline;
+            text-transform: none;
+        }
+
+        * {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #text {
+            text-shadow: 2px 2px 1px #CC5500;
+
+            /* (right-offset)px (left-offset)px (fade)px color*/
+            #box {
+                box-shadow: 9px 9px 5px #301934;
+
+                /* (right-offset)px (left-offset)px (fade)px color*/
+                #indent {
+                    text-indent: 50%; //16px or -3em
+                }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="text">Shadow</h1>
+    <h2 id="box">Shadow Of Box</h2>
+    <h3 id="indent">Indent</h3>
+</body>
+
+</html>
